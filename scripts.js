@@ -119,3 +119,4 @@ function getResults(gamer) {
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 restart.addEventListener('click', reset);
+//работай давай
