@@ -1,2 +1,2 @@
-# feerbax56-JSFEPRESCHOOL
-Private repository for @feerbax56
+# memory-game
+учебный проект JS+CSS+HTML
