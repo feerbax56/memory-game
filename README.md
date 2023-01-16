@@ -1,2 +1,2 @@
 # memory-game
-учебный проект JS+CSS+HTML
+проект JS+CSS+HTML

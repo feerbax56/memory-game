@@ -1,109 +1,106 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>memory-game</title>
-   <link rel="stylesheet" href="./style.css">
-   <link type="image/x-icon" rel="icon" href="./assets/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memory-game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link type="image/x-icon" rel="icon" href="./assets/favicon.ico">
 </head>
 <body>
 
-  <header>
+<header>
     <h1 class="container"> I was there 3000 years ago </h1>
     <div class="container">
-       <div class="header">
-          </div>
-          
-            <h4>
-              <span> moves:</span>
-              <span class="counter"> 0 </span>
-            </h4>
-            
+        <div class="header">
+        </div>
+
+        <h4>
+            <span> moves:</span>
+            <span class="counter"> 0 </span>
+        </h4>
+
         <div class="restart">
-          <button class="restart__button">Restart</button>
-         </div>
-         
+            <button class="restart__button">Restart</button>
+        </div>
+
     </div>
     <div class="won none">
-    <p class="final"></p>
+        <p class="final"></p>
         <h2 class="result-table__title">Таблица рекордов</h2>
         <ul class="result-table__gamers gamers" data-js="result-table"></ul>
-  </div>
-  </header>
+    </div>
+</header>
 
-   <section class="memory-game">
-      <div class="memory-card" data-framework="react">
+<section class="memory-game">
+    <div class="memory-card" data-framework="react">
         <img class="front-face" src="./assets/img/chip.png" alt="React">
         <img class="back-face" src="./assets/img/js-badge.gif" alt="Memory Card">
-      </div>
-    
-      <div class="memory-card" data-framework="react">
+    </div>
+
+    <div class="memory-card" data-framework="react">
         <img class="front-face" src="./assets/img/dael.png" alt="React">
         <img class="back-face" src="./assets/img/js-badge.gif" alt="Memory Card">
-      </div>
-    
-      <div class="memory-card" data-framework="angular">
+    </div>
+
+    <div class="memory-card" data-framework="angular">
         <img class="front-face" src="./assets/img/mario.png" alt="Angular">
         <img class="back-face" src="./assets/img/js-badge.gif" alt="Memory Card">
-      </div>
-    
-      <div class="memory-card" data-framework="angular">
+    </div>
+
+    <div class="memory-card" data-framework="angular">
         <img class="front-face" src="./assets/img/mario2.png" alt="Angular">
         <img class="back-face" src="./assets/img/js-badge.gif" alt="Memory Card">
-      </div>
-    
-      <div class="memory-card" data-framework="ember">
+    </div>
+
+    <div class="memory-card" data-framework="ember">
         <img class="front-face" src="./assets/img/gamepad.png" alt="Ember">
         <img class="back-face" src="./assets/img/js-badge.gif" alt="Memory Card">
-      </div>
-    
-      <div class="memory-card" data-framework="ember">
+    </div>
+
+    <div class="memory-card" data-framework="ember">
         <img class="front-face" src="./assets/img/gun.png" alt="Ember">
         <img class="back-face" src="./assets/img/js-badge.gif" alt="Memory Card">
-      </div>
-    
-      <div class="memory-card" data-framework="vue">
+    </div>
+
+    <div class="memory-card" data-framework="vue">
         <img class="front-face" src="./assets/img/Battletoadsrash.jpg" alt="Vue">
         <img class="back-face" src="./assets/img/js-badge.gif" alt="Memory Card">
-      </div>
-    
-      <div class="memory-card" data-framework="vue">
+    </div>
+
+    <div class="memory-card" data-framework="vue">
         <img class="front-face" src="./assets/img/battletoads.png" alt="Vue">
         <img class="back-face" src="./assets/img/js-badge.gif" alt="Memory Card">
-      </div>
-    
-      <div class="memory-card" data-framework="backbone">
+    </div>
+
+    <div class="memory-card" data-framework="backbone">
         <img class="front-face" src="./assets/img/dog.png" alt="Backbone">
         <img class="back-face" src="./assets/img/js-badge.gif" alt="Memory Card">
-      </div>
-    
-      <div class="memory-card" data-framework="backbone">
+    </div>
+
+    <div class="memory-card" data-framework="backbone">
         <img class="front-face" src="./assets/img/dog2.jpg" alt="Backbone">
         <img class="back-face" src="./assets/img/js-badge.gif" alt="Memory Card">
-      </div>
-    
-      <div class="memory-card" data-framework="aurelia">
+    </div>
+
+    <div class="memory-card" data-framework="aurelia">
         <img class="front-face" src="./assets/img/sonik.png" alt="Aurelia">
         <img class="back-face" src="./assets/img/js-badge.gif" alt="Memory Card">
-      </div>
-    
-      <div class="memory-card" data-framework="aurelia">
+    </div>
+
+    <div class="memory-card" data-framework="aurelia">
         <img class="front-face" src="./assets/img/sonik2.png" alt="Aurelia">
         <img class="back-face" src="./assets/img/js-badge.gif" alt="Memory Card">
-      </div>
-    </section>
+    </div>
+</section>
 
-    <footer class="footer">
-      <div class="footer-data">
-         <p class="copyright">©</p>
-         <p class="year">2022</p>
-         <a class="github-username" href="https://github.com/feerbax56"><img src="./assets/img/github.svg" alt="git hub"></a>
-       </div>
-       <a class="rsschool" href="https://rs.school/js-stage0/"> <img src="./assets/img/rs_school_js.svg" alt="rs_school_js"> </a>
-    </footer>
-
-   <script src="./scripts.js"></script>
+<footer class="footer">
+    <div class="footer-data">
+        <p class="year">2022</p>
+        <a class="github-username" href="https://github.com/feerbax56"><img src="./assets/img/github.svg" alt="git hub"></a>
+    </div>
+</footer>
+<script src="./scripts.js"></script>
 </body>
 </html>
